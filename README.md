@@ -19,11 +19,19 @@ GRANT VIEW ANY DEFINITION TO [telegraf];
 GO
 ```
 5. Go to http://localhost:3000/ to open up the grafana dashboard and add the influxdb data source
+
+
 6. Add grafana dashboard 
     
     If you are using Telegraf SQL Server v1 metrics, use this dashboard https://grafana.com/dashboards/409  
     
     If you are using Telegraf SQL Server v2 metrics, use dashboard form Tracy Boggiano http://tracyboggiano.com/download/collecting-performance-metrics/ 
+    
+ 
+    datasource name: InfluxDB-00-Internal
+    HTTP URL:http://localhost:8086
+    HTTP Access: Browser
+    database name: telegraf 
 
 ## Resource Links:
 
