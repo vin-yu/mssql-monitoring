@@ -25,7 +25,7 @@ GO
     
     If you are using Telegraf SQL Server v1 metrics, use this dashboard https://grafana.com/dashboards/409  
     
-    If you are using Telegraf SQL Server v2 metrics, use dashboard form Tracy Boggiano http://tracyboggiano.com/download/collecting-performance-metrics/ 
+    If you are using Telegraf SQL Server v2 metrics, use dashboard from Tracy Boggiano on Github at https://github.com/tboggiano/grafana
     
  
     datasource name: InfluxDB-00-Internal
